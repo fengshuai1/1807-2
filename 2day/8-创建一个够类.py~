@@ -1,0 +1,27 @@
+class dag():
+
+#	def __init__(self,c,j):
+#		self.c = c
+#		self.j = j
+#	def __str__(self):
+#		msg = '狗吃%s，狗会叫%s'%(self.c,self.j)
+#		return msg
+
+	def jiao(self,j):
+		print('叫%s'%j)
+	def chi(self,food):
+		print('吃%s'%food)
+
+
+
+
+
+
+hashiqi = dag()
+hashiqi.jiao('汪汪汪')
+hashiqi.chi('狗粮')
+#print(hashiqi)
+xiaotianquan = dag()
+xiaotianquan.jiao('狂叫')
+xiaotianquan.chi('二氧化碳')
+#print(xiaotianquan)
