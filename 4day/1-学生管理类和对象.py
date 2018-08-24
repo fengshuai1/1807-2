@@ -37,7 +37,7 @@ class Menu():#菜单类
 		self.m = Manager()#让菜单持有管理类对象的引用
 
 	def print_men(self):
-        print("欢迎来学生管理系统")
+		print("欢迎来学生管理系统")
 		print('*  *1.添加学员*  *')
 		print('*  *2.修改学员*  *')
 		print('*  *3.查询学员*  *')
